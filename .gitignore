@@ -1,5 +1,7 @@
 # Don't Add/Commit:
-Testing/
+tests/
+config.py
+test_copy.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
