@@ -1,0 +1,2 @@
+class RENXTApiException(Exception):
+    pass
