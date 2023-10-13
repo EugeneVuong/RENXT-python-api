@@ -5,6 +5,7 @@ class RENXTApi:
     def __init__(self, hostname: str = 'api.sky.blackbaud.com', api_key: str = '', oauth_key: str = ''):
         self._rest_adapter = RestAdapter(hostname=hostname, api_key=api_key, oauth_key=oauth_key)
 
+
     # Constituent
     def search_constituent(self, search_text: str, include_inactive: bool = False,
                            search_field: str = '', strict_search: bool = False,
